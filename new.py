@@ -12,7 +12,7 @@ from sklearn.feature_selection import mutual_info_classif
 import optuna
 
 # Load data
-df = pd.read_csv("train_data1 (1).csv")
+df = pd.read_csv("train_data1.csv")
 df = df.dropna(subset=["What would you like to become when you grow up"])
 df = df.drop(['Leadership Experience', 'Timestamp'], axis=1)
 
